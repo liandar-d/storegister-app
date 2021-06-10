@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+    <!-- <html dir="rtl" lang="ar"> -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Two+Tone|Material+Icons+Sharp" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+    <title>StoRegister</title>
+
+
+  </head>
+  <body>
+
+<div id="app">
+    <div id="notice" class="d-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="alert d-flex align-items-center alert-dismissible" role="alert">
+                        <span class="material-icons-outlined">
+                            info
+                        </span> 
+                    <div>
+                        <h6>Important Note</h6>
+                        <span class="message">An example alert with an icon</span>
+                        <span class="material-icons-outlined btn-close" type="button" data-bs-dismiss="alert" aria-label="Close">
+                            close
+                        </span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header id="header" class="sticky-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="text-center pt-2">
+                        <img src="./images/logo.png" alt="" class="img-fluid logo-image">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <form class="d-flex pt-2">
+                        <i class="medium text-white material-icons search-icon">search</i>
+                        <input class="form-control me-2 w-75" type="search" placeholder="Search Anything.." aria-label="Search">
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex pt-2 width-adjust">
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <div class="slider round"></div>
+                      </label>
+                      <div class="dropdown notificationMenu">
+                        <a class="btn bg-transparent text-white dropdown-toggle" href="#" role="button" id="notificationMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="material-icons tiny ms-2 notification">
+                                notifications
+                            </span>
+                            <span class="count"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="notificationMenu">
+                            <p class="mb-0 float-start dropdown-header">Notifications</p>
+                            <a class="dropdown-item preview-item alert alert-dismissible">
+                                <div class="container-fluid ps-0 pe-0">
+                                    <div class="row">
+                                        <div class="col-md-2 align-self-center">
+                                            <div class="preview-icon text-center">
+                                                <i class="material-icons notify tiny mx-0">notifications</i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 align-self-center">
+                                            <h6 class="preview-subject my-auto text-wrap">Lorem ipsum dolor sit amet consectetur.</h6>
+                                        </div>
+                                        <div class="col-md-2 align-self-start">
+                                            <div class="text-center">
+                                                <i class="material-icons close tiny mx-0" type="button" data-bs-dismiss="alert" aria-label="Close">close</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item alert alert-dismissible">
+                                <div class="container-fluid ps-0 pe-0">
+                                    <div class="row">
+                                        <div class="col-md-2 align-self-center">
+                                            <div class="preview-icon text-center">
+                                                <i class="material-icons notify tiny mx-0">notifications</i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 align-self-center">
+                                            <h6 class="preview-subject my-auto text-wrap">Lorem ipsum dolor sit amet consectetur.</h6>
+                                        </div>
+                                        <div class="col-md-2 align-self-start">
+                                            <div class="text-center">
+                                                <i class="material-icons close tiny mx-0" type="button" data-bs-dismiss="alert" aria-label="Close">close</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item alert alert-dismissible">
+                                <div class="container-fluid ps-0 pe-0">
+                                    <div class="row">
+                                        <div class="col-md-2 align-self-center">
+                                            <div class="preview-icon text-center">
+                                                <i class="material-icons notify tiny mx-0">notifications</i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 align-self-center">
+                                            <h6 class="preview-subject my-auto text-wrap">Lorem ipsum dolor sit amet consectetur.</h6>
+                                        </div>
+                                        <div class="col-md-2 align-self-start">
+                                            <div class="text-center">
+                                                <i class="material-icons close tiny mx-0" type="button" data-bs-dismiss="alert" aria-label="Close">close</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </ul>
+                    </div>
+                        <span class="tiny material-icons ms-2 settings">
+                            settings
+                        </span>
+                        <div class="dropdown ms-3 language">
+                            <a class="btn bg-transparent text-white dropdown-toggle" href="#" role="button" id="language" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="flag-icon flag-icon-us"></span> En
+                            </a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="language">
+                              <div class="container-fluid">
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-ar"></span> Arabic</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pk"></span> Urdu</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-il"></span> Hebrew </a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-se"></span> Swedish</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-no"></span> Norwegian</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"></span> Danish</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-fi"></span> Finnish</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es"></span> Spanish</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-nl"></span> Dutch</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-it"></span> Italian</a></li>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gr"></span> German</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pl"></span> Polish</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-fr"></span> French</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-ro"></span> Romanian </a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-sk"></span> Slovak</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pt"></span> Portuguese</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-cz"></span> Czech</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-my"></span> Malay</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-in"></span> Hindi</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-us"></span> English</a></li>
+                                      </div>
+                                  </div>
+                              </div>
+                            </ul>
+                        </div>
+                        <img src="./images/man.png" alt="" class="img-fluid ms-3 profile-image">
+                        <div class="dropdown ms-1 welcome">
+                            <a class="btn bg-transparent text-white dropdown-toggle" href="#" role="button" id="welcome" data-bs-toggle="dropdown" aria-expanded="false">
+                              Welcome, Chetan Kumar Naidu
+                            </a>
+                          
+                            <ul class="dropdown-menu" aria-labelledby="welcome">
+                                <li class="pt-2 pb-2">
+                                    <span class="material-icons-outlined d-inline ps-3 my-auto">
+                                        settings
+                                    </span>
+                                    <a class="dropdown-item d-inline my-auto stretched-link" href="#">Account Set Up</a>
+                                </li>
+                                <li class="pt-2 pb-2">
+                                    <span class="material-icons-outlined d-inline ps-3 my-auto">
+                                        power_settings_new
+                                    </span>
+                                    <a class="dropdown-item d-inline stretched-link" href="#">Sign Out</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropdown dotMenu">
+                            <a class="btn bg-transparent text-white dropdown-toggle" href="#" role="button" id="dotMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="material-icons tiny ms-3 apps">
+                                    apps
+                                </span>
+                            </a>
+                          
+                            <ul class="dropdown-menu" aria-labelledby="dotMenu">
+                                <div class="row p-3">
+                                    <div class="col-md-4">
+                                        <li>
+                                            <div class="text-center">
+                                                <img src="./images/menu-icons/operations.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="text-center">
+                                                <a class="dropdown-item stretched-link" href="#">Operations</a>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li>
+                                            <div class="text-center">
+                                                <img src="./images/menu-icons/reports.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="text-center">
+                                                <a class="dropdown-item" href="#">Reports</a>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li>
+                                            <div class="text-center">
+                                                <img src="./images/menu-icons/set-up.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="text-center">
+                                                <a class="dropdown-item" href="#">Set Up</a>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="first-section" class="pt-3">
+        <div class="container-fluid">
+            <div class="col-md-3">
+                <div class="adjust-toggle position-fixed">
+                    <div class="box-outer p-3 ms-3 me-3">
+                        <span class="material-icons tiny float-end m-2 toggle" onClick="ExpandMenu();">
+                            menu
+                        </span>
+                        <ul class="nav flex-column pt-5">
+                            <li class="nav-item">
+                                <a href="" class="icon-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="27.264" height="27.264" viewBox="0 0 27.264 27.264"><defs></defs><path class="a" d="M10.508,9.088H1.988A1.99,1.99,0,0,1,0,7.1V1.988A1.99,1.99,0,0,1,1.988,0h8.52A1.99,1.99,0,0,1,12.5,1.988V7.1A1.99,1.99,0,0,1,10.508,9.088ZM1.988,1.7a.284.284,0,0,0-.284.284V7.1a.284.284,0,0,0,.284.284h8.52a.284.284,0,0,0,.284-.284V1.988a.284.284,0,0,0-.284-.284Zm0,0"/><path class="a" d="M10.508,229.236H1.988A1.99,1.99,0,0,1,0,227.248V215.32a1.99,1.99,0,0,1,1.988-1.988h8.52A1.99,1.99,0,0,1,12.5,215.32v11.928A1.99,1.99,0,0,1,10.508,229.236Zm-8.52-14.2a.284.284,0,0,0-.284.284v11.928a.284.284,0,0,0,.284.284h8.52a.284.284,0,0,0,.284-.284V215.32a.284.284,0,0,0-.284-.284Zm0,0" transform="translate(0 -201.972)"/><path class="a" d="M287.84,350.42h-8.52a1.99,1.99,0,0,1-1.988-1.988V343.32a1.99,1.99,0,0,1,1.988-1.988h8.52a1.99,1.99,0,0,1,1.988,1.988v5.112A1.99,1.99,0,0,1,287.84,350.42Zm-8.52-7.384a.284.284,0,0,0-.284.284v5.112a.284.284,0,0,0,.284.284h8.52a.284.284,0,0,0,.284-.284V343.32a.284.284,0,0,0-.284-.284Zm0,0" transform="translate(-262.564 -323.156)"/><path class="a" d="M287.84,15.9h-8.52a1.99,1.99,0,0,1-1.988-1.988V1.988A1.99,1.99,0,0,1,279.32,0h8.52a1.99,1.99,0,0,1,1.988,1.988V13.916A1.99,1.99,0,0,1,287.84,15.9ZM279.32,1.7a.284.284,0,0,0-.284.284V13.916a.284.284,0,0,0,.284.284h8.52a.284.284,0,0,0,.284-.284V1.988a.284.284,0,0,0-.284-.284Zm0,0" transform="translate(-262.564)"/></svg>
+                                </a>
+                                <a class="nav-link d-inline" aria-current="page" href="#">Dashboard</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="" class="icon-link active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25.966" height="25.962" viewBox="0 0 25.966 25.962"><defs></defs><path class="a active" d="M-6.394-11.743q1.906-2.917,3.7-2.917a2.544,2.544,0,0,1,1.848.809,16.534,16.534,0,0,1,2.224,2.686,4.012,4.012,0,0,1,.837,3.321,2.366,2.366,0,0,1-.505.9q-.39.462-1.285,1.357a11.9,11.9,0,0,0-1.1,1.184q-.289.4.549,1.733A23.946,23.946,0,0,0,2.732.732,28.229,28.229,0,0,0,5.591,3.187,4.276,4.276,0,0,0,7.641,4.2a.411.411,0,0,0,.231-.058q.26-.2,1.184-1.1.924-.924,1.372-1.3a2.328,2.328,0,0,1,.881-.491,2.268,2.268,0,0,1,.722-.116,5.276,5.276,0,0,1,2.888,1.155,15.433,15.433,0,0,1,2.368,2.022A2.418,2.418,0,0,1,18.1,6.421q-.173,1.646-2.888,3.437A9.216,9.216,0,0,1,10.125,11.3,13.836,13.836,0,0,1,4.046,9.757,22.022,22.022,0,0,1-1.918,5.382,25.182,25.182,0,0,1-5.3,1.223,17.062,17.062,0,0,1-7.318-3.2,10.015,10.015,0,0,1-6.394-11.743Zm1.04,7.971A15.748,15.748,0,0,0-3.535.126,21.444,21.444,0,0,0-.474,3.938a24.808,24.808,0,0,0,2.657,2.31A19.779,19.779,0,0,0,4.927,7.923,15.671,15.671,0,0,0,7.612,8.9a9.738,9.738,0,0,0,2.512.347,7.1,7.1,0,0,0,3.956-1.126,9.83,9.83,0,0,0,1.5-1.155,1.451,1.451,0,0,0,.491-.78.518.518,0,0,0-.231-.433,15.811,15.811,0,0,0-2.079-1.79,3.536,3.536,0,0,0-1.733-.78.118.118,0,0,0-.087.029,1.144,1.144,0,0,0-.347.26q-.318.26-1.1,1.011A13.387,13.387,0,0,1,9.085,5.815l-.058.029a2.441,2.441,0,0,1-1.386.4,3.835,3.835,0,0,1-1.5-.347,8.481,8.481,0,0,1-1.762-1.04A35.081,35.081,0,0,1,1.317,2.234l-.029-.029L1.23,2.147A26.707,26.707,0,0,1-1.86-1.578a6.977,6.977,0,0,1-.693-1.357A3.963,3.963,0,0,1-2.784-4a2.4,2.4,0,0,1,.433-1.588A13.845,13.845,0,0,1-1.08-6.978l.058-.058Q-.272-7.787-.012-8.1a2.72,2.72,0,0,0,.26-.375q.116-.462-.606-1.588a14.62,14.62,0,0,0-1.935-2.31.634.634,0,0,0-.4-.231,1.283,1.283,0,0,0-.751.433,8.806,8.806,0,0,0-1.213,1.559,7.144,7.144,0,0,0-1.1,3.061A10.059,10.059,0,0,0-5.354-3.773Z" transform="translate(7.851 14.66)"/></svg>
+                                </a>
+                                <a class="nav-link d-inline active" aria-current="page" href="#">Contact Book</a>
+                            </li>
+                            <div class="dropdown sideMenuDropdown">
+                                <a href="" class="icon-link" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <!-- <img src="./images/menu-icons/settings.svg" alt="" class="img-fluid d-inline m-icon active color-adjust"> -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="33.203" height="33.203" viewBox="0 0 33.203 33.203"><defs></defs><g transform="translate(0 0)"><path class="a" d="M17.643,33.2H15.56A3.06,3.06,0,0,1,12.5,30.147v-.7a13.4,13.4,0,0,1-2.081-.864l-.5.5a3.057,3.057,0,0,1-4.323,0L4.126,27.6a3.056,3.056,0,0,1,0-4.323l.5-.5A13.405,13.405,0,0,1,3.762,20.7h-.7A3.06,3.06,0,0,1,0,17.644V15.56A3.06,3.06,0,0,1,3.057,12.5h.7a13.408,13.408,0,0,1,.864-2.081l-.5-.5a3.057,3.057,0,0,1,0-4.323L5.6,4.126a3.056,3.056,0,0,1,4.323,0l.5.5A13.417,13.417,0,0,1,12.5,3.762v-.7A3.06,3.06,0,0,1,15.56,0h2.084A3.06,3.06,0,0,1,20.7,3.057v.7a13.4,13.4,0,0,1,2.081.864l.5-.5a3.057,3.057,0,0,1,4.323,0L29.077,5.6a3.056,3.056,0,0,1,0,4.323l-.5.5a13.406,13.406,0,0,1,.864,2.081h.7A3.06,3.06,0,0,1,33.2,15.56v2.084A3.06,3.06,0,0,1,30.147,20.7h-.7a13.408,13.408,0,0,1-.864,2.081l.5.5a3.057,3.057,0,0,1,0,4.323L27.6,29.077a3.056,3.056,0,0,1-4.323,0l-.5-.5a13.417,13.417,0,0,1-2.081.864v.7A3.06,3.06,0,0,1,17.643,33.2Zm-6.9-6.669a11.466,11.466,0,0,0,2.972,1.234.973.973,0,0,1,.73.942v1.436a1.112,1.112,0,0,0,1.111,1.111h2.084a1.112,1.112,0,0,0,1.111-1.111V28.71a.973.973,0,0,1,.73-.942,11.466,11.466,0,0,0,2.972-1.234.973.973,0,0,1,1.183.149L24.657,27.7a1.111,1.111,0,0,0,1.571,0L27.7,26.228a1.111,1.111,0,0,0,0-1.571l-1.018-1.018a.973.973,0,0,1-.149-1.183,11.464,11.464,0,0,0,1.234-2.972.973.973,0,0,1,.942-.73h1.436a1.112,1.112,0,0,0,1.111-1.111V15.56a1.112,1.112,0,0,0-1.111-1.111H28.71a.973.973,0,0,1-.942-.73,11.467,11.467,0,0,0-1.234-2.972.973.973,0,0,1,.149-1.183L27.7,8.546a1.111,1.111,0,0,0,0-1.571L26.228,5.5a1.111,1.111,0,0,0-1.571,0L23.64,6.519a.973.973,0,0,1-1.183.149,11.466,11.466,0,0,0-2.972-1.234.973.973,0,0,1-.73-.942V3.057a1.112,1.112,0,0,0-1.111-1.111H15.56a1.112,1.112,0,0,0-1.111,1.111V4.493a.973.973,0,0,1-.73.942,11.466,11.466,0,0,0-2.972,1.234.973.973,0,0,1-1.183-.149L8.546,5.5a1.111,1.111,0,0,0-1.571,0L5.5,6.975a1.111,1.111,0,0,0,0,1.571L6.519,9.564a.973.973,0,0,1,.149,1.183,11.464,11.464,0,0,0-1.234,2.972.973.973,0,0,1-.942.73H3.057A1.112,1.112,0,0,0,1.946,15.56v2.084a1.112,1.112,0,0,0,1.111,1.111H4.493a.973.973,0,0,1,.942.73,11.466,11.466,0,0,0,1.234,2.972.973.973,0,0,1-.149,1.183L5.5,24.657a1.111,1.111,0,0,0,0,1.571L6.975,27.7a1.111,1.111,0,0,0,1.571,0l1.018-1.018a.977.977,0,0,1,1.183-.149Z"/><path class="a" d="M151.824,159.049a7.224,7.224,0,1,1,7.224-7.224A7.232,7.232,0,0,1,151.824,159.049Zm0-12.5a5.279,5.279,0,1,0,5.279,5.279A5.285,5.285,0,0,0,151.824,146.546Z" transform="translate(-135.223 -135.223)"/></g></svg>
+                                </a>
+                                <a class="btn btn-transparent dropdown-toggle" href="#" role="button" id="sideMenuDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Operations
+                                </a>
+                                
+                                <ul class="dropdown-menu" aria-labelledby="sideMenuDropdown">
+                                    <li class="drop-hover">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 24 21.1" style="enable-background:new 0 0 24 21.1;" xml:space="preserve">
+                                        <g transform="translate(0 -26.137)">
+                                            <g transform="translate(0 26.137)">
+                                                <g>
+                                                    <path class="st0" d="M21.6,3.3H17V2.5c0-1.3-1-2.3-2.3-2.4H9.3C8.1,0.1,7,1.2,7,2.5v0.8H2.5c-0.6,0-1.2,0.2-1.6,0.6
+                                                        c-0.4,0.4-0.7,1-0.7,1.6v13.1c0,0.6,0.2,1.2,0.6,1.7s1,0.7,1.6,0.7h19c1.3,0,2.3-1,2.3-2.3v-13C23.8,4.4,22.9,3.3,21.6,3.3z
+                                                        M8.4,3.3V2.5c0-0.5,0.4-0.9,0.9-1h5.4c0.5,0,0.9,0.4,0.9,0.9v0.8H8.4z M22.4,18.6c0,0.5-0.4,0.9-0.9,1h-19
+                                                        c-0.5,0-0.9-0.4-0.9-0.9V15c0.3,0.2,0.6,0.2,0.9,0.2h5.7v1.5c0.1,0.4,0.4,0.7,0.8,0.7H15c0.4,0,0.7-0.3,0.8-0.8v-1.5h5.7
+                                                        c0.3,0,0.6,0,0.9-0.2V18.6z M9.6,16.1v-2.6h4.9v2.6H9.6z M22.4,12.9c0,0.5-0.4,0.9-0.9,1h-5.7v-1.1c0-0.4-0.4-0.6-0.8-0.6H9
+                                                        c-0.4,0-0.8,0.2-0.8,0.6v1.1H2.5c-0.5,0-0.9-0.4-0.9-0.9V5.6c0-0.5,0.3-0.9,0.8-0.9h19.1c0.2,0,0.4,0,0.6,0.2
+                                                        c0.2,0.1,0.3,0.3,0.3,0.6V12.9z"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        </svg>
+                                        <a class="dropdown-item d-inline" href="#">Book Now</a>
+                                    </li>
+                                    <li class="drop-hover">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+                                        <g transform="translate(-0.003 0)">
+                                            <g transform="translate(0.003 0)">
+                                                <g transform="translate(0 0)">
+                                                    <g>
+                                                        <path class="st0" d="M17,9.1V6.7c0-0.8-0.7-1.6-1.5-1.7l-2.3-3.9c-0.2-0.4-0.6-0.7-1-0.8c-0.4-0.1-0.9-0.1-1.3,0.2L3.2,5H1.9
+                                                            C0.9,5,0.2,5.8,0.2,6.7v9.5c0,0.9,0.8,1.7,1.7,1.7h13.5c0.9,0,1.7-0.8,1.7-1.7v-2.4c0.5-0.2,0.8-0.7,0.8-1.2v-2.4
+                                                            C17.8,9.7,17.5,9.3,17,9.1z M13.7,3.7L14.4,5h-3L13.7,3.7z M13.2,2.9L9.5,5H8.3l4.6-2.7L13.2,2.9z M11.5,1.3
+                                                            c0.2-0.1,0.3-0.1,0.5-0.1c0.2,0,0.3,0.1,0.4,0.3L6.3,5H5.1L11.5,1.3z M16.1,16.2c0,0.4-0.3,0.7-0.7,0.7H1.9
+                                                            c-0.4,0-0.7-0.3-0.7-0.7V6.7C1.1,6.3,1.5,6,1.9,6h13.5c0.4,0,0.7,0.3,0.7,0.7V9h-2.3c-0.6,0-1.3,0.2-1.8,0.7
+                                                            c-0.5,0.5-0.7,1.1-0.8,1.7c0,1.4,1.1,2.5,2.4,2.5h2.4V16.2z M16.8,12.6c0,0.2-0.1,0.3-0.3,0.3h-2.8c-0.8,0-1.5-0.7-1.5-1.5
+                                                            c0-0.8,0.7-1.5,1.5-1.5h2.8c0.2,0,0.3,0.1,0.3,0.3L16.8,12.6z"/>
+                                                    </g>
+                                                    <g>
+                                                        <path class="st0" d="M14.6,11.5c0,0.5-0.4,0.9-0.9,0.9c-0.5,0-0.9-0.4-0.9-0.9c0-0.5,0.4-0.9,0.9-0.9
+                                                            C14.3,10.6,14.6,11,14.6,11.5z"/>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        </svg>
+                                        <a class="dropdown-item d-inline" href="#">Move In</a>
+                                    </li>
+                                    <li class="drop-hover">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><defs></defs><path class="st0" d="M172.143,137.714h1.348v1.348h-1.348Z" transform="translate(-164.41 -131.528)"/><path class="st0" d="M172.143,206.571h1.348v1.348h-1.348Z" transform="translate(-164.41 -197.291)"/><path class="st0" d="M309.857,206.571H311.2v1.348h-1.348Z" transform="translate(-295.938 -197.291)"/><path class="st0" d="M378.714,206.571h1.348v1.348h-1.348Z" transform="translate(-361.701 -197.291)"/><path class="st0" d="M309.857,275.429H311.2v1.348h-1.348Z" transform="translate(-295.938 -263.056)"/><path class="st0" d="M378.714,275.429h1.348v1.348h-1.348Z" transform="translate(-361.701 -263.056)"/><path class="st0" d="M309.857,344.286H311.2v1.348h-1.348Z" transform="translate(-295.938 -328.82)"/><path class="st0" d="M378.714,344.286h1.348v1.348h-1.348Z" transform="translate(-361.701 -328.82)"/><path class="st0" d="M309.857,413.143H311.2v1.348h-1.348Z" transform="translate(-295.938 -394.584)"/><path class="st0" d="M378.714,413.143h1.348v1.348h-1.348Z" transform="translate(-361.701 -394.584)"/><path class="st0" d="M103.286,206.571h1.348v1.348h-1.348Z" transform="translate(-98.646 -197.291)"/><path class="st0" d="M172.143,275.429h1.348v1.348h-1.348Z" transform="translate(-164.41 -263.056)"/><path class="st0" d="M103.286,275.429h1.348v1.348h-1.348Z" transform="translate(-98.646 -263.056)"/><path class="st0" d="M172.143,344.286h1.348v1.348h-1.348Z" transform="translate(-164.41 -328.82)"/><path class="st0" d="M103.286,344.286h1.348v1.348h-1.348Z" transform="translate(-98.646 -328.82)"/><path class="st0" d="M21.453,21.652V6.186h-9.28V2.972l-1.547.258V0H3.093V4.485l-1.547.258v16.91H0V23H23V21.652ZM20.106,7.534V21.652H12.174V7.534ZM4.441,1.348H9.28V3.454L4.441,4.26ZM2.894,5.884l7.932-1.322v17.09H9.081V18.559H4.64v3.093H2.894ZM7.733,21.652H5.987V19.907H7.733Z" transform="translate(0 0)"/></svg>
+                                        <a class="dropdown-item d-inline" href="#">Move Out</a>
+                                    </li>
+                                    <li class="drop-hover">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 19.9 20.2" style="enable-background:new 0 0 19.9 20.2;" xml:space="preserve">
+                                        <g transform="translate(-4.508)">
+                                            <g transform="translate(4.508 6)">
+                                                <g transform="translate(0)">
+                                                    <path class="st0" d="M19.1,0H0.8C0.3,0,0,0.3,0,0.8l0,0v12.7c0,0.4,0.3,0.8,0.8,0.8h0h18.3c0.4,0,0.8-0.3,0.8-0.8l0,0V0.8
+                                                        C19.9,0.3,19.5,0,19.1,0C19.1,0,19.1,0,19.1,0z M18.3,12.7H1.5V1.5h16.8L18.3,12.7z"/>
+                                                </g>
+                                            </g>
+                                            <g transform="translate(6.186 2.975)">
+                                                <g transform="translate(0)">
+                                                    <path class="st0" d="M15.7,0H0.8C0.3,0,0,0.3,0,0.8l0,0v3h1.5V1.5H15v2.3h1.5v-3C16.5,0.3,16.1,0,15.7,0L15.7,0z"/>
+                                                </g>
+                                            </g>
+                                            <g transform="translate(8.449)">
+                                                <g transform="translate(0)">
+                                                    <path class="st0" d="M11.2,0H0.8C0.3,0,0,0.3,0,0.8c0,0,0,0,0,0v3h1.5V1.5h8.9v2.2H12v-3C12,0.3,11.6,0,11.2,0
+                                                        C11.2,0,11.2,0,11.2,0z"/>
+                                                </g>
+                                            </g>
+                                            <g transform="translate(10.712 11.06)">
+                                                <path class="st0" d="M6.7,0H0.8C0.3,0,0,0.3,0,0.7c0,0.4,0.3,0.8,0.7,0.8c0,0,0,0,0.1,0h5.9c0.4,0,0.8-0.3,0.8-0.7
+                                                    C7.5,0.4,7.1,0,6.7,0C6.7,0,6.7,0,6.7,0z"/>
+                                            </g>
+                                        </g>
+                                        </svg>
+                                        <a class="dropdown-item d-inline" href="#">Schedules</a>
+                                    </li>
+                                    <!-- <li>
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path class="st0" d="M10.7,8.2L13.9,5h-2.2c-0.4,0-0.8-0.3-0.8-0.8s0.3-0.8,0.8-0.8c0,0,0,0,0,0h2.9c1.1,0,2,0.9,2,2v2.9
+                                                    c0,0.4-0.4,0.8-0.8,0.8S15,8.8,15,8.3V6.1l-3.2,3.2c-0.3,0.3-0.8,0.3-1.1,0C10.4,9.1,10.3,8.6,10.7,8.2
+                                                    C10.6,8.3,10.7,8.3,10.7,8.2z"/>
+                                            </g>
+                                            <g>
+                                                <path class="st0" d="M4.2,10.9c-0.4,0-0.8,0.4-0.8,0.8v2.9c0,1.1,0.9,2,2,2h2.9c0.4,0,0.8-0.4,0.8-0.8c0-0.4-0.4-0.8-0.8-0.8H6.1
+                                                    l3.2-3.2c0.3-0.3,0.3-0.8,0.1-1.1s-0.8-0.3-1.1-0.1c0,0,0,0,0,0L5,13.9v-2.2C5,11.3,4.7,10.9,4.2,10.9L4.2,10.9z"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M17.4,20H2.7c-1.4,0-2.5-1.1-2.5-2.5V2.6C0.1,1.2,1.3,0,2.7,0h14.7c1.4,0,2.5,1.1,2.5,2.5v14.9
+                                                C19.9,18.8,18.8,20,17.4,20z M2.7,1.5c-0.6,0-1,0.5-1,1v14.9c0,0.6,0.5,1,1,1h14.7c0.6,0,1-0.5,1-1V2.6c0-0.6-0.5-1-1-1H2.7z"/>
+                                        </g>
+                                        </svg>
+                                        <a class="dropdown-item d-inline" href="#">Storage Size</a>
+                                    </li>
+                                    <li>
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 23.6 23.6" style="enable-background:new 0 0 23.6 23.6;" xml:space="preserve">
+                                        <g>
+                                            <path class="st0" d="M9.7,23.1c-0.1,0-0.2-0.1-0.2-0.1l-0.6-2.4l-0.3-0.1c-0.3-0.1-0.5-0.2-0.8-0.3L7.7,20l-2.1,1.3
+                                                c0,0-0.1,0-0.1,0c-0.1,0-0.1,0-0.1-0.1l-2.9-2.9c-0.1-0.1-0.1-0.2,0-0.2L3.6,16l-0.1-0.2c-0.1-0.3-0.2-0.5-0.3-0.8l-0.1-0.3
+                                                l-2.4-0.6c-0.1,0-0.1-0.1-0.1-0.2V9.7c0-0.1,0.1-0.2,0.1-0.2l2.4-0.6l0.1-0.3c0.1-0.3,0.2-0.5,0.3-0.8l0.1-0.2L2.4,5.5
+                                                c0-0.1,0-0.2,0-0.2l2.9-2.9c0,0,0.1-0.1,0.1-0.1c0,0,0.1,0,0.1,0l2.1,1.3l0.2-0.1c0.3-0.1,0.5-0.2,0.8-0.3l0.3-0.1l0.6-2.4
+                                                c0-0.1,0.1-0.1,0.2-0.1h4.2c0.1,0,0.2,0.1,0.2,0.1l0.6,2.4l0.3,0.1c0.3,0.1,0.5,0.2,0.8,0.3L16,3.6l2.1-1.3c0,0,0.1,0,0.1,0
+                                                c0.1,0,0.1,0,0.1,0.1l2.9,2.9c0.1,0.1,0.1,0.2,0,0.2L20,7.7l0.1,0.2c0.1,0.3,0.2,0.5,0.3,0.8l0.1,0.3L23,9.5c0.1,0,0.1,0.1,0.1,0.2
+                                                v4.2c0,0.1-0.1,0.2-0.1,0.2l-2.4,0.6l-0.1,0.2c-0.1,0.3-0.2,0.5-0.3,0.8L20,16l1.3,2.1c0,0.1,0,0.2,0,0.2l-2.9,2.9
+                                                c0,0-0.1,0.1-0.1,0.1l0,0c0,0-0.1,0-0.1,0L16,20l-0.2,0.1c-0.3,0.1-0.5,0.2-0.8,0.3l-0.3,0.1L14.1,23c0,0.1-0.1,0.1-0.2,0.1H9.7z
+                                                M9.9,22.7h3.8v-5.5l-0.6,0.1c-0.4,0.1-0.8,0.1-1.3,0.1c-0.4,0-0.9,0-1.3-0.1l-0.6-0.1V22.7z M2.8,5.5L4,7.6c0,0.1,0,0.1,0,0.2
+                                                C3.8,8.2,3.6,8.7,3.4,9.2c0,0.1-0.1,0.1-0.1,0.1L0.9,9.9v3.8l2.4,0.6c0.1,0,0.1,0.1,0.1,0.1c0.2,0.5,0.4,1,0.6,1.4
+                                                c0,0.1,0,0.1,0,0.2l-1.2,2.1l2.7,2.7l2.1-1.2c0,0,0.1,0,0.1,0c0.5,0.2,0.8,0.4,1.2,0.5l0.7,0.2v-3.3l-0.3-0.1C8,16.3,7,15.3,6.5,14
+                                                c-0.6-1.4-0.6-3,0-4.4s1.7-2.5,3.1-3.1c0,0,0,0,0,0c0.2,0,0.2,0.1,0.2,0.2v5l1.9,1.3l1.9-1.3v-5c0-0.2,0.1-0.2,0.2-0.2
+                                                c1.4,0.5,2.4,1.5,3,2.8c0.7,1.4,0.8,2.9,0.3,4.4c-0.5,1.5-1.5,2.6-2.9,3.3l-0.3,0.1v3.3l0.7-0.2c0.4-0.1,0.8-0.3,1.1-0.5l0.1,0
+                                                c0,0,0.1,0,0.1,0l2.1,1.2l2.7-2.7l-1.2-2.1c0-0.1,0-0.1,0-0.2c0.2-0.5,0.4-0.9,0.6-1.4c0-0.1,0.1-0.1,0.1-0.1l2.4-0.6l0-3.8
+                                                l-2.4-0.6c-0.1,0-0.1-0.1-0.1-0.1c-0.2-0.5-0.4-1-0.6-1.4c0-0.1,0-0.1,0-0.2l1.2-2.1l-2.7-2.7L16.1,4C16,4,16,4,16,4
+                                                c-0.5-0.3-1-0.5-1.5-0.6c-0.1,0-0.1-0.1-0.1-0.1l-0.6-2.4H9.9L9.3,3.3c0,0.1-0.1,0.1-0.1,0.1C8.7,3.6,8.2,3.8,7.7,4
+                                                c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0L5.5,2.8L2.8,5.5z M8.8,7.4c-0.5,0.4-1,0.8-1.3,1.3c-1.7,2.4-1.1,5.8,1.3,7.4c0.9,0.6,2,1,3,1
+                                                c1.7,0,3.4-0.9,4.4-2.3c1.7-2.4,1.1-5.8-1.3-7.4l-0.8-0.5v4.9c0,0.1,0,0.1-0.1,0.2l-2.1,1.4c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0
+                                                L9.6,12c-0.1,0-0.1-0.1-0.1-0.2V6.9L8.8,7.4z"/>
+                                            <path class="st0" d="M13.9,0H9.7C9.4,0,9.1,0.2,9.1,0.5L8.5,2.7C8.2,2.8,8,2.9,7.7,3.1L5.8,1.9C5.7,1.9,5.6,1.8,5.4,1.8
+                                                C5.3,1.8,5.1,1.9,5,2L2,5C1.8,5.2,1.8,5.5,1.9,5.8L3,7.7C2.9,8,2.8,8.2,2.7,8.5L0.5,9.1C0.2,9.1,0,9.4,0,9.7v4.2
+                                                c0,0.3,0.2,0.6,0.5,0.7l2.2,0.5c0.1,0.3,0.2,0.6,0.4,0.8l-1.1,1.9c-0.2,0.3-0.1,0.6,0.1,0.8L5,21.6c0.1,0.1,0.3,0.2,0.5,0.2
+                                                c0.1,0,0.2,0,0.4-0.1l1.9-1.1c0.3,0.1,0.6,0.3,0.8,0.4l0.5,2.2c0.1,0.3,0.4,0.5,0.7,0.5h4.2c0.3,0,0.6-0.2,0.7-0.5l0.5-2.2
+                                                c0.3-0.1,0.6-0.2,0.8-0.4l1.9,1.1c0.1,0.1,0.2,0.1,0.4,0.1c0.2,0,0.4-0.1,0.5-0.2l2.9-2.9c0.2-0.2,0.3-0.6,0.1-0.8l-1.1-1.9
+                                                c0.1-0.3,0.3-0.6,0.4-0.8l2.2-0.5c0.3-0.1,0.5-0.4,0.5-0.7V9.7c0-0.3-0.2-0.6-0.5-0.7l-2.2-0.5c-0.1-0.3-0.2-0.6-0.4-0.8l1.1-1.9
+                                                c0.2-0.3,0.1-0.6-0.1-0.8L18.7,2c-0.1-0.1-0.3-0.2-0.5-0.2c-0.1,0-0.2,0-0.4,0.1L15.9,3c-0.3-0.1-0.6-0.3-0.8-0.4l-0.5-2.2
+                                                C14.5,0.2,14.2,0,13.9,0L13.9,0z M7.7,4.5c0.1,0,0.2,0,0.3-0.1C8.4,4.2,8.9,4,9.3,3.9c0.2-0.1,0.4-0.3,0.5-0.5l0.5-2h3.1l0.5,2
+                                                c0.1,0.2,0.2,0.4,0.5,0.5c0.5,0.1,0.9,0.3,1.3,0.6c0.1,0.1,0.2,0.1,0.3,0.1c0.1,0,0.2,0,0.4-0.1l1.7-1l2.2,2.2l-1,1.7
+                                                c-0.1,0.2-0.1,0.5,0,0.7c0.2,0.4,0.4,0.9,0.6,1.3c0.1,0.2,0.3,0.4,0.5,0.5l2,0.5l0,3.1l-2,0.5c-0.2,0.1-0.4,0.2-0.5,0.5
+                                                c-0.1,0.5-0.3,0.9-0.6,1.3c-0.1,0.2-0.1,0.5,0,0.7l1,1.7l-2.2,2.2l-1.7-1c-0.1-0.1-0.2-0.1-0.4-0.1c-0.1,0-0.2,0-0.3,0.1
+                                                c-0.3,0.2-0.7,0.3-1.1,0.5v-2.2c3.1-1.5,4.3-5.3,2.8-8.3c-0.7-1.4-1.8-2.4-3.2-3C14.1,6,14,6,13.9,6c-0.3,0-0.5,0.2-0.6,0.4
+                                                c0,0.1-0.1,0.2-0.1,0.3v4.8l-1.4,0.9l-1.4-0.9V6.7c0-0.4-0.3-0.7-0.7-0.7c0,0,0,0,0,0C9.6,6,9.6,6,9.5,6C6.3,7.3,4.7,11,6,14.1
+                                                c0.6,1.4,1.6,2.6,3,3.2v2.2c-0.4-0.1-0.7-0.3-1.1-0.5c-0.1-0.1-0.2-0.1-0.3-0.1c-0.1,0-0.2,0-0.4,0.1l-1.7,1l-2.2-2.2l1-1.7
+                                                c0.1-0.2,0.1-0.5,0-0.7c-0.2-0.4-0.4-0.9-0.6-1.3c-0.1-0.2-0.3-0.4-0.5-0.5l-2-0.5v-3.1l2-0.5c0.2-0.1,0.4-0.2,0.5-0.5
+                                                C4,8.9,4.2,8.4,4.5,8c0.1-0.2,0.1-0.5,0-0.7l-1-1.7l2.2-2.2l1.7,1C7.4,4.5,7.5,4.5,7.7,4.5L7.7,4.5z M11.8,13.9
+                                                c0.1,0,0.3,0,0.4-0.1l2.1-1.4c0.2-0.1,0.3-0.3,0.3-0.6v-4c2.2,1.5,2.7,4.5,1.2,6.7c-0.9,1.4-2.4,2.1-4,2.1c-1,0-1.9-0.3-2.8-0.9
+                                                C6.8,14.3,6.3,11.2,7.8,9C8.2,8.6,8.6,8.2,9,7.8v4c0,0.2,0.1,0.4,0.3,0.6l2.1,1.4C11.5,13.8,11.7,13.9,11.8,13.9L11.8,13.9z
+                                                M11.8,18c0.5,0,0.9-0.1,1.4-0.2v4.4h-2.8v-4.4C10.9,18,11.3,18,11.8,18C11.8,18,11.8,18,11.8,18C11.8,18,11.8,18,11.8,18L11.8,18z
+                                                "/>
+                                        </g>
+                                        </svg>
+                                        <a class="dropdown-item d-inline" href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25.58" height="25.582" viewBox="0 0 25.58 25.582"><defs></defs><g transform="translate(-0.017 0)"><g transform="translate(0.017 0)"><g transform="translate(0 0)"><path class="st0" d="M25.545,15.717l-1.124-2.926,1.122-2.927a.8.8,0,0,0-.243-.908L22.865,6.983l-.492-3.1a.8.8,0,0,0-.663-.663l-3.1-.492L16.64.3a.8.8,0,0,0-.908-.243L12.806,1.177,9.879.054A.8.8,0,0,0,8.973.3L7,2.732l-3.1.492a.8.8,0,0,0-.663.663l-.492,3.1L.313,8.957a.8.8,0,0,0-.243.906l1.122,2.927L.07,15.718a.8.8,0,0,0,.243.906L2.748,18.6l.492,3.1a.8.8,0,0,0,.663.663L7,22.85l1.973,2.435a.8.8,0,0,0,.908.243l2.926-1.122,2.927,1.122a.809.809,0,0,0,.286.053.8.8,0,0,0,.622-.3l1.973-2.435,3.1-.492a.8.8,0,0,0,.663-.663l.492-3.1L25.3,16.625A.8.8,0,0,0,25.545,15.717Zm-2.729-2.639,1.025,2.67-2.224,1.8a.8.8,0,0,0-.286.5l-.449,2.825-2.825.449a.8.8,0,0,0-.5.286l-1.8,2.224L13.094,22.8a.848.848,0,0,0-.288-.053.8.8,0,0,0-.286.053l-2.67,1.025L8.05,21.6a.8.8,0,0,0-.5-.286L4.73,20.868l-.449-2.825a.8.8,0,0,0-.286-.5l-2.224-1.8L2.8,13.079a.8.8,0,0,0,0-.574L1.771,9.834l2.224-1.8a.8.8,0,0,0,.286-.5L4.73,4.713l2.825-.449a.8.8,0,0,0,.5-.286l1.8-2.222,2.67,1.025a.8.8,0,0,0,.572,0l2.67-1.025,1.8,2.224a.8.8,0,0,0,.5.286l2.825.449.449,2.825a.8.8,0,0,0,.286.5l2.224,1.8L22.816,12.5A.8.8,0,0,0,22.816,13.077Z" transform="translate(-0.017 0)"/></g></g><g transform="translate(8.01 6.396)"><path class="st0" d="M162.413,128.03a2.4,2.4,0,1,0,2.4,2.4A2.4,2.4,0,0,0,162.413,128.03Zm0,3.2a.8.8,0,1,1,.8-.8A.8.8,0,0,1,162.413,131.227Z" transform="translate(-160.015 -128.03)"/></g><g transform="translate(12.806 14.39)"><path class="st0" d="M258.413,288.03a2.4,2.4,0,1,0,2.4,2.4A2.4,2.4,0,0,0,258.413,288.03Zm0,3.2a.8.8,0,1,1,.8-.8A.8.8,0,0,1,258.413,291.227Z" transform="translate(-256.015 -288.03)"/></g><g transform="translate(8.011 6.398)"><path class="st0" d="M169.285,128.216a.8.8,0,0,0-1.114.185l-7.993,11.191a.8.8,0,0,0,1.3.929l7.993-11.191A.8.8,0,0,0,169.285,128.216Z" transform="translate(-160.027 -128.067)"/></g></g></svg>
+                                        <a class="dropdown-item d-inline" href="#">Discount</a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 row-adjust">
+                <div class="template-body">
+
+                </div>
+                
+                <div class="footer mt-2">
+                    <div class="continer-fluid">
+                        <div class="row">
+                            <div class="col-md-12 align-self-baseline">
+                                <div class="float-end">
+                                    <p>© 2021 StoRegister. All rights reserved - A Product of Pavilion Tree Solutions Private Limited. - Privacy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+</div>
+    
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    
+    
+    
+  </body>
+</html>
