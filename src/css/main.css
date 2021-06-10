@@ -25781,6 +25781,74 @@ body {
             background-color: var(--bg-color);
             -webkit-box-shadow: 0px 3px 8px #00000014;
                     box-shadow: 0px 3px 8px #00000014; }
+          html body #app #first-section .box .rectangle {
+            width: 259px;
+            height: 112px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            -webkit-box-shadow: 0px 0px 10px #0000001a;
+                    box-shadow: 0px 0px 10px #0000001a;
+            border-radius: 6px;
+            opacity: 1;
+            padding-left: 80px;
+            margin-left: 29px;
+            margin-top: 20px;
+            font-size: 11px;
+            border-left: solid 33px #8B9BF7;
+            border-radius: 0px; }
+          html body #app #first-section .box .content p {
+            color: black;
+            padding-left: 10px;
+            margin-bottom: 0px; }
+          html body #app #first-section .box .content .profile img {
+            height: 50px; }
+          html body #app #first-section .box .content .drop-btn {
+            padding-left: 0px;
+            border: none;
+            border: 1px solid #0000001A;
+            margin-top: 8px; }
+          html body #app #first-section .box .content .drop-btn .color {
+            color: #238A8C;
+            font-size: 11px;
+            height: 27px;
+            margin-top: 4px;
+            padding-bottom: 22px; }
+          html body #app #first-section .box .content .name {
+            font-weight: 500;
+            color: black; }
+          html body #app #first-section .box .rectangle-2 {
+            width: 259px;
+            height: 112px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            -webkit-box-shadow: 0px 0px 10px #0000001a;
+                    box-shadow: 0px 0px 10px #0000001a;
+            border-radius: 6px;
+            opacity: 1;
+            padding-left: 80px;
+            margin-left: 29px;
+            margin-top: 20px;
+            font-size: 11px;
+            border-left: solid 33px #85C298;
+            border-radius: 0px; }
+          html body #app #first-section .box .content {
+            padding-left: 0px;
+            padding-top: 15px; }
+          html body #app #first-section .box .rectangle-3 {
+            width: 259px;
+            height: 112px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            -webkit-box-shadow: 0px 0px 10px #0000001a;
+                    box-shadow: 0px 0px 10px #0000001a;
+            border-radius: 6px;
+            opacity: 1;
+            padding-left: 80px;
+            margin-left: 29px;
+            margin-top: 20px;
+            font-size: 11px;
+            border-left: solid 33px #5EBBCF;
+            border-radius: 0px; }
+          html body #app #first-section .box .content {
+            padding-left: 0px;
+            padding-top: 15px; }
           html body #app #first-section .icon-call .icon-call-name {
             margin-top: 13px;
             font-weight: 600; }
